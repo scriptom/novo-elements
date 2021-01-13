@@ -54,6 +54,21 @@ import { BasePickerResults } from '../base-picker-results/BasePickerResults';
           <i class="bhi-candidate"></i>
           <span>{{ match.data.numAssigned * match.data.fillRatio | number: '1.0-0' }} / {{ match.data.openings }}</span>
         </p>
+        <!-- START Date -->
+        <p class="start-date" *ngIf="match.data.startTime && match.data.searchEntity === 'Shift'">
+          <i class="bhi-calendar"></i>
+          <span [innerHtml]="renderTimestamp(match.data.startTime)"></span>
+        </p>
+        <!-- START & END TIME -->
+        <p class="start-time" *ngIf="match.data.startTime && match.data.searchEntity === 'Shift'">
+          <i class="bhi-clock"></i>
+          <span [innerHtml]="renderTimeNoOffset(match.data.startTime) + ' - ' + renderTimeNoOffset(match.data.endTime)"></span>
+        </p>
+        <!-- JOBORDER -->
+        <p class="job" *ngIf="match.data.jobOrder && match.data.searchEntity === 'Shift'">
+          <i class="bhi-job"></i>
+          <span [innerHtml]="highlight(match.data.clientCorporation.name, term)"></span>
+        </p>
         <!-- EMAIL -->
         <p class="email" *ngIf="match.data.email">
           <i class="bhi-email"></i> <span [innerHtml]="highlight(match.data.email, term)"></span>
