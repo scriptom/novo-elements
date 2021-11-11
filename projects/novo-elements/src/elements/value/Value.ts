@@ -1,8 +1,6 @@
 // NG2
 import { Component, HostBinding, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { BooleanInput } from '../../utils';
-// APP
-import { Helpers } from '../../utils/Helpers';
+import { BooleanInput, Helpers } from 'novo-elements/utils';
 export enum NOVO_VALUE_TYPE {
   DEFAULT,
   ENTITY_LIST,

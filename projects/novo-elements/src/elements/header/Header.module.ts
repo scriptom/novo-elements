@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NovoButtonModule } from './../button/Button.module';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoCommonModule } from './../common/common.module';
 import { NovoIconModule } from './../icon/Icon.module';
 import { NovoHeaderComponent, NovoHeaderSpacer, NovoUtilActionComponent, NovoUtilsComponent } from './Header';

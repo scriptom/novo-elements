@@ -6,11 +6,11 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { IMaskDirectiveModule } from 'angular-imask';
 // Vendor
 import { TextMaskModule } from 'angular2-text-mask';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoCheckboxModule } from '../checkbox';
 import { NovoCommonModule } from '../common/common.module';
 import { NovoTemplateService } from './../../services/template/NovoTemplateService';
 import { NovoAceEditorModule } from './../ace-editor/AceEditor.module';
-import { NovoButtonModule } from './../button/Button.module';
 import { NovoChipsModule } from './../chips/Chips.module';
 import { NovoNovoCKEditorModule } from './../ckeditor/CKEditor.module';
 import { NovoDatePickerModule } from './../date-picker/DatePicker.module';
@@ -83,6 +83,7 @@ import { NovoFormElement } from './Form';
     NovoFieldsetHeaderElement,
     NovoControlGroup,
     NovoControlTemplates,
+    NovoFieldsetElement,
   ],
   providers: [NovoTemplateService],
 })

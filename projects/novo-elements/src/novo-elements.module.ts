@@ -2,13 +2,14 @@
 import { ScrollingModule } from '@angular/cdk/scrolling';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NovoButtonModule } from 'novo-elements/button';
+import { ComponentUtils } from 'novo-elements/utils';
 // APP
 import { NovoAceEditorModule } from './elements/ace-editor/AceEditor.module';
 import { NovoAgendaModule } from './elements/agenda/Agenda.module';
 import { NovoAsideModule } from './elements/aside/aside.module';
 import { NovoAvatarModule } from './elements/avatar/Avatar.module';
 import { NovoBreadcrumbModule } from './elements/breadcrumbs/Breadcrumb.module';
-import { NovoButtonModule } from './elements/button/Button.module';
 import { NovoCalendarModule } from './elements/calendar/Calendar.module';
 import { NovoCardModule } from './elements/card/Card.module';
 import { NovoCategoryDropdownModule } from './elements/category-dropdown/CategoryDropdown.module';
@@ -30,6 +31,7 @@ import { NovoFieldModule } from './elements/field/field.module';
 import { NovoFlexModule } from './elements/flex/Flex.module';
 import { NovoFormExtrasModule } from './elements/form/extras/FormExtras.module';
 import { NovoFormModule } from './elements/form/Form.module';
+import { FormUtils } from './elements/form/FormUtils';
 import { NovoHeaderModule } from './elements/header/Header.module';
 import { NovoIconModule } from './elements/icon/Icon.module';
 import { NovoLayoutModule } from './elements/layout/layout.module';
@@ -70,8 +72,6 @@ import { BrowserGlobalRef, GlobalRef } from './services/global/global.service';
 import { NovoLabelService } from './services/novo-label-service';
 import { OptionsService } from './services/options/OptionsService';
 import { LocalStorageService } from './services/storage/storage.service';
-import { ComponentUtils } from './utils/component-utils/ComponentUtils';
-import { FormUtils } from './utils/form-utils/FormUtils';
 
 @NgModule({
   imports: [ReactiveFormsModule],

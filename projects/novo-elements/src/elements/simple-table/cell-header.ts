@@ -15,9 +15,9 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import * as dateFns from 'date-fns';
+import { Helpers } from 'novo-elements/utils';
 import { Subscription } from 'rxjs';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Helpers } from '../../utils/Helpers';
 import { NovoDropdownElement } from '../dropdown/Dropdown';
 import { NovoSimpleSortFilter, NovoSimpleTableChange, SimpleTableColumnFilterConfig, SimpleTableColumnFilterOption } from './interfaces';
 import { NovoSortFilter } from './sort';

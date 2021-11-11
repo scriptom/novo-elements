@@ -2,8 +2,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoPipesModule } from './../../../pipes/Pipes.module';
-import { NovoButtonModule } from './../../button/Button.module';
 import { NovoCheckboxModule } from './../../checkbox';
 import { NovoDragulaModule } from './../../dragula/Dragula.module';
 import { NovoLoadingModule } from './../../loading/Loading.module';

@@ -13,8 +13,8 @@ import {
   ViewChild,
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { Key } from 'novo-elements/utils';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Key } from '../../utils';
 // APP
 import { NovoOverlayTemplateComponent } from '../common/overlay/Overlay';
 

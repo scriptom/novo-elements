@@ -3,6 +3,10 @@
   "dest": "../../dist/novo-elements",
   "lib": {
     "flatModuleFile": "novo-elements",
-    "entryFile": "index.ts"
-  }
+    "entryFile": "index.ts",
+    "umdModuleIds": {
+      "date-fns": "date-fns"
+    }
+  },
+  "whitelistedNonPeerDependencies": ["date-fns"]
 }

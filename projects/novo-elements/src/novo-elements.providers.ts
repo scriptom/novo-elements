@@ -1,5 +1,6 @@
 // NG2
 import { ModuleWithProviders, NgModule } from '@angular/core';
+import { ComponentUtils } from 'novo-elements/utils';
 import { NovoAsideService } from './elements/aside/aside.service';
 import { NovoDragulaService } from './elements/dragula/DragulaService';
 import { FieldInteractionApi } from './elements/form/FieldInteractionApi';
@@ -16,7 +17,6 @@ import { OptionsService } from './services/options/OptionsService';
 import { Security } from './services/security/Security';
 import { LocalStorageService } from './services/storage/storage.service';
 import { NovoTemplateService } from './services/template/NovoTemplateService';
-import { ComponentUtils } from './utils/component-utils/ComponentUtils';
 
 const NOVO_ELEMENTS_PROVIDERS = [
   { provide: NovoDragulaService, useClass: NovoDragulaService },

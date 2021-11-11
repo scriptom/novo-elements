@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NovoButtonModule } from '../button/Button.module';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoOptionModule } from '../common';
 import { NovoDropdownModule } from '../dropdown/Dropdown.module';
 import { NovoIconModule } from '../icon/Icon.module';

@@ -16,8 +16,8 @@ import {
   ViewChild,
   ViewEncapsulation,
 } from '@angular/core';
+import { NovoButtonElement } from 'novo-elements/button';
 import { Subscription } from 'rxjs';
-import { NovoButtonElement } from '../../button';
 import { NovoOverlayTemplateComponent } from '../../common/overlay';
 import { NovoFieldElement, NOVO_FORM_FIELD } from '../field';
 

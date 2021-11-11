@@ -1,9 +1,9 @@
 // NG2
 import { ChangeDetectorRef, Injectable, Pipe, PipeTransform } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
+import { findByCountryId } from 'novo-elements/utils';
 // APP
 import { NovoLabelService } from '../../services/novo-label-service';
-import { findByCountryId } from '../../utils/countries/Countries';
 
 /**
  * @classdesc

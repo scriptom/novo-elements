@@ -21,9 +21,9 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { ControlValueAccessor, FormGroupDirective, NgControl, NgForm } from '@angular/forms';
+import { Key } from 'novo-elements/utils';
 import { merge, Observable, Subject, Subscription } from 'rxjs';
 import { startWith, takeUntil } from 'rxjs/operators';
-import { Key } from '../../utils';
 import { CanUpdateErrorState, CanUpdateErrorStateCtor, ErrorStateMatcher, mixinErrorState, NOVO_OPTION_PARENT_COMPONENT } from '../common';
 import { NovoFieldControl } from '../field';
 import { NovoChipElement, NovoChipEvent, NovoChipSelectionChange } from './Chip';
@@ -92,8 +92,7 @@ export class NovoChipListChange {
 })
 export class NovoChipList
   extends _NovoChipListMixinBase
-  implements NovoFieldControl<any>, ControlValueAccessor, AfterContentInit, DoCheck, OnInit, OnDestroy, CanUpdateErrorState
-{
+  implements NovoFieldControl<any>, ControlValueAccessor, AfterContentInit, DoCheck, OnInit, OnDestroy, CanUpdateErrorState {
   /**
    * Implemented as part of NovoFieldControl.
    * @docs-private

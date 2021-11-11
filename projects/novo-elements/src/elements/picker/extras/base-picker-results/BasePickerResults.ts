@@ -1,10 +1,10 @@
 // NG2
 import { OverlayRef } from '@angular/cdk/overlay';
 import { ChangeDetectorRef, Directive, ElementRef, Input } from '@angular/core';
+// APP
+import { Helpers } from 'novo-elements/utils';
 // Vendor
 import { from, Observable } from 'rxjs';
-// APP
-import { Helpers } from '../../../../utils/Helpers';
 import { NovoControlConfig } from '../../../form/controls/BaseControl';
 
 /**

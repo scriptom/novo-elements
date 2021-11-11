@@ -1,0 +1,12 @@
+
+{
+  "ngPackage": {
+      "lib": {
+          "entryFile": "index.ts",
+          "flatModuleFile": "novo-elements-utils",
+          "umdModuleIds": {
+            "date-fns": "date-fns"
+          }
+      }
+  }
+}

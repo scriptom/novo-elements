@@ -11,7 +11,6 @@ import {
   Output,
   TemplateRef,
 } from '@angular/core';
-import { Subject, Subscription } from 'rxjs';
 import {
   CalendarEvent,
   CalendarEventTimesChangedEvent,
@@ -21,7 +20,8 @@ import {
   getWeekViewHeader,
   WeekDay,
   WeekViewEventRow,
-} from '../../../utils/calendar-utils/CalendarUtils';
+} from 'novo-elements/utils';
+import { Subject, Subscription } from 'rxjs';
 
 /**
  * @hidden

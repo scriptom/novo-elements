@@ -12,7 +12,6 @@ import {
   TemplateRef,
 } from '@angular/core';
 import * as dateFns from 'date-fns';
-import { Subject, Subscription } from 'rxjs';
 import {
   CalendarEvent,
   CalendarEventTimesChangedEvent,
@@ -21,7 +20,8 @@ import {
   MonthView,
   MonthViewDay,
   WeekDay,
-} from '../../../utils/calendar-utils/CalendarUtils';
+} from 'novo-elements/utils';
+import { Subject, Subscription } from 'rxjs';
 
 /**
  * Shows all events on a given month. Example usage:

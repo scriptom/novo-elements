@@ -12,9 +12,9 @@ import {
   Optional,
   Renderer2,
 } from '@angular/core';
+import { Helpers } from 'novo-elements/utils';
 import { Subscription } from 'rxjs';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Helpers } from '../../utils/Helpers';
 import { SimpleTableActionColumn, SimpleTableActionColumnOption, SimpleTableColumn } from './interfaces';
 import { NovoSelection } from './sort';
 

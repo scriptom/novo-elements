@@ -1,7 +1,7 @@
 // NG2
 import { ChangeDetectorRef, Component, EventEmitter, forwardRef, Input, Output } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { Key } from '../../utils';
+import { Key } from 'novo-elements/utils';
 
 // Value accessor for the component (supports ngModel)
 const SWITCH_VALUE_ACCESSOR = {

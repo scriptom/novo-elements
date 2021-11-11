@@ -1,9 +1,9 @@
 // NG2
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NovoPipesModule } from '../../pipes/Pipes.module';
 // APP
-import { NovoButtonModule } from '../button/Button.module';
+import { NovoButtonModule } from 'novo-elements/button';
+import { NovoPipesModule } from '../../pipes/Pipes.module';
 import { NovoTooltipModule } from '../tooltip/Tooltip.module';
 import { NovoAgendaDateChangeElement } from './common/AgendaDateChange';
 // Common Elements

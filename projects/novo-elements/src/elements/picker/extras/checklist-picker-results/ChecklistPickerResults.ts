@@ -1,9 +1,9 @@
 // NG2
 import { ChangeDetectorRef, Component, ElementRef } from '@angular/core';
+import { Helpers } from 'novo-elements/utils';
 // Vendor
 import { from, Observable } from 'rxjs';
 import { NovoLabelService } from '../../../../services/novo-label-service';
-import { Helpers } from '../../../../utils/Helpers';
 // APP
 import { BasePickerResults } from '../base-picker-results/BasePickerResults';
 

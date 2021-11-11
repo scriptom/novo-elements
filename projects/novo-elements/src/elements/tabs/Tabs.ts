@@ -1,6 +1,6 @@
 // NG2
 import { AfterViewInit, Component, EventEmitter, HostBinding, Input, Output, ViewChild } from '@angular/core';
-import { BooleanInput } from '../../utils';
+import { BooleanInput } from 'novo-elements/utils';
 
 @Component({
   selector: 'novo-nav',

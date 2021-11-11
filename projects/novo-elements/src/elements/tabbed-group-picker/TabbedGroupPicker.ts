@@ -10,10 +10,10 @@ import {
   Output,
   ViewChild,
 } from '@angular/core';
+import { binarySearch, Helpers } from 'novo-elements/utils';
 import { BehaviorSubject, Subscription } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { binarySearch, Helpers } from '../../utils/Helpers';
 
 export type TabbedGroupPickerTab = {
   typeName: string;

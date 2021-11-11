@@ -6,9 +6,9 @@ import { FormBuilder } from '@angular/forms';
 // App
 import { NovoLabelService } from '../../services/novo-label-service';
 import { OptionsService } from '../../services/options/OptionsService';
-import { FormUtils } from './../../utils/form-utils/FormUtils';
 import { NovoControlGroup } from './ControlGroup';
 import { NovoFormModule } from './Form.module';
+import { FormUtils } from './FormUtils';
 
 xdescribe('Elements: NovoControlGroup', () => {
   let fixture;

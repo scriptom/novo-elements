@@ -2,12 +2,10 @@
 import { coerceBooleanProperty } from '@angular/cdk/coercion';
 import { Component, ElementRef, EventEmitter, forwardRef, Input, OnInit, Output, ViewChild, ViewContainerRef } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
+import { ComponentUtils, Helpers, Key } from 'novo-elements/utils';
 // Vendor
 import { ReplaySubject } from 'rxjs';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Key } from '../../utils';
-import { ComponentUtils } from '../../utils/component-utils/ComponentUtils';
-import { Helpers } from '../../utils/Helpers';
 
 // Value accessor for the component (supports ngModel)
 const CHIPS_VALUE_ACCESSOR = {

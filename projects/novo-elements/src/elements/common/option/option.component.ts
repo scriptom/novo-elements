@@ -17,7 +17,7 @@ import {
   QueryList,
   ViewEncapsulation,
 } from '@angular/core';
-import { Key } from 'projects/novo-elements/src/utils';
+import { Key } from 'novo-elements/utils';
 import { Subject } from 'rxjs';
 import { NovoOptgroup, NovoOptgroupBase, NOVO_OPTGROUP } from './optgroup.component';
 import { NovoOptionParentComponent, NOVO_OPTION_PARENT_COMPONENT } from './option-parent';

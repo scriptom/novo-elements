@@ -3,7 +3,7 @@ import { PortalModule } from '@angular/cdk/portal';
 import { CdkStepperModule } from '@angular/cdk/stepper';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NovoButtonModule } from '../button/Button.module';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoIconModule } from '../icon/Icon.module';
 import { NovoStepHeader } from './step-header.component';
 import { NovoStepLabel } from './step-label.component';

@@ -18,9 +18,9 @@ import {
   Output,
 } from '@angular/core';
 import { ANIMATION_MODULE_TYPE } from '@angular/platform-browser/animations';
+import { Key } from 'novo-elements/utils';
 import { Subject } from 'rxjs';
 import { take } from 'rxjs/operators';
-import { Key } from '../../utils';
 import { CanColor, CanColorCtor, HasTabIndex, HasTabIndexCtor, mixinColor, mixinTabIndex } from '../common';
 
 export interface IRemovable {

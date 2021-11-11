@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 // App
-import { NovoButtonModule } from '../button';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoOptionModule } from '../common';
 import { NovoOverlayModule } from '../common/overlay';
 import { NovoDividerModule } from '../divider';

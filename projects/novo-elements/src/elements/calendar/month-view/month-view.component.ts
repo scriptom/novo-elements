@@ -13,8 +13,8 @@ import {
 import { DomSanitizer } from '@angular/platform-browser';
 // Vendor
 import { addDays, isAfter, isBefore, isSameDay, isToday, startOfMonth, startOfWeek } from 'date-fns';
+import { BooleanInput } from 'novo-elements/utils';
 import { NovoLabelService } from '../../../services/novo-label-service';
-import { BooleanInput } from '../../../utils';
 import type { DateLike, Day, OverlayDate } from '../../date-picker/date-picker.types';
 
 @Component({

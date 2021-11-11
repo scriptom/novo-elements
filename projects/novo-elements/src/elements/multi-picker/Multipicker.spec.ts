@@ -1,9 +1,8 @@
 // NG2
 import { async, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
+import { ComponentUtils, Key } from 'novo-elements/utils';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Key } from '../../utils';
-import { ComponentUtils } from '../../utils/component-utils/ComponentUtils';
 // App
 import { NovoMultiPickerElement } from './MultiPicker';
 import { NovoMultiPickerModule } from './MultiPicker.module';

@@ -15,16 +15,13 @@ import {
   OnInit,
   Output,
 } from '@angular/core';
+import { Helpers, Key, OutsideClick } from 'novo-elements/utils';
 // Vendor
 import { Observable } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
 import { DateFormatService } from '../../services/date-format/DateFormat';
 import { NovoLabelService } from '../../services/novo-label-service';
 import { NovoTemplateService } from '../../services/template/NovoTemplateService';
-import { Key } from '../../utils';
-import { Helpers } from '../../utils/Helpers';
-// APP
-import { OutsideClick } from '../../utils/outside-click/OutsideClick';
 import { FieldInteractionApi } from './FieldInteractionApi';
 
 export interface IMaskOptions {

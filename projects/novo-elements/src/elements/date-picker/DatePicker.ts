@@ -5,10 +5,8 @@ import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { DomSanitizer } from '@angular/platform-browser';
 // Vendor
 import { isDate, isValid, parse, startOfDay } from 'date-fns';
+import { BooleanInput, Helpers } from 'novo-elements/utils';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { BooleanInput } from '../../utils';
-// APP
-import { Helpers } from '../../utils/Helpers';
 import { DatePickerSelectModes, modelTypes, RangeModel, rangeSelectModes } from './date-picker.types';
 
 // Value accessor for the component (supports ngModel)

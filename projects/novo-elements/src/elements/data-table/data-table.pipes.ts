@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { Helpers } from 'novo-elements/utils';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Helpers } from '../../utils/Helpers';
 import { IDataTableColumn } from './interfaces';
 
 export function interpolateCell<T>(value: any, col: IDataTableColumn<T>): string {

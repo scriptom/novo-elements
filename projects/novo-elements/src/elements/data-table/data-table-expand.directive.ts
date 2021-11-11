@@ -1,6 +1,6 @@
 import { Directive, HostListener, Input, OnDestroy, TemplateRef, ViewContainerRef } from '@angular/core';
+import { Helpers } from 'novo-elements/utils';
 import { Subscription } from 'rxjs';
-import { Helpers } from '../../utils/Helpers';
 import { NovoDataTable } from './data-table.component';
 import { DataTableState } from './state/data-table-state.service';
 
@@ -29,7 +29,7 @@ export class NovoDataTableExpandDirective<T> implements OnDestroy {
 
   shouldExpandAllRows = (targetId: number): boolean => targetId === undefined;
 
-  shouldExpandOneRow = (targetId: number) => targetId === (this.row as unknown as { id: number }).id;
+  shouldExpandOneRow = (targetId: number) => targetId === ((this.row as unknown) as { id: number }).id;
 
   ngOnDestroy() {
     this.subscription.unsubscribe();

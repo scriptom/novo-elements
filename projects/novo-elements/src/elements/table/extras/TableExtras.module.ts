@@ -2,7 +2,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { NovoButtonModule } from '../../button/Button.module';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoDropdownModule } from '../../dropdown/Dropdown.module';
 // APP
 import { NovoSelectModule } from '../../select/Select.module';

@@ -25,12 +25,12 @@ import {
   ViewChildren,
 } from '@angular/core';
 import { ControlValueAccessor, FormGroupDirective, NgControl, NgForm } from '@angular/forms';
+import { Key } from 'novo-elements/utils';
 // Vendor
 import { merge, Observable, of, Subject, Subscription } from 'rxjs';
 import { filter, map, take, takeUntil } from 'rxjs/operators';
 // App
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Key } from '../../utils';
 import {
   CanDisableCtor,
   CanRequireCtor,
@@ -158,8 +158,7 @@ let nextId = 0;
 })
 export class NovoSelectElement
   extends NovoSelectMixins
-  implements OnInit, AfterViewInit, OnChanges, OnDestroy, ControlValueAccessor, NovoFieldControl<any>
-{
+  implements OnInit, AfterViewInit, OnChanges, OnDestroy, ControlValueAccessor, NovoFieldControl<any> {
   private _uniqueId: string = `novo-select-${++nextId}`;
   private _stateChanges = Subscription.EMPTY;
   private _activeOptionChanges = Subscription.EMPTY;

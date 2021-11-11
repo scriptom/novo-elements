@@ -1,7 +1,7 @@
 // NG2
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NovoButtonModule } from '../button/Button.module';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoOptionModule } from '../common';
 // APP
 import { NovoOverlayModule } from '../common/overlay/Overlay.module';

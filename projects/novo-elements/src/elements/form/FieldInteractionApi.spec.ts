@@ -2,17 +2,17 @@
 import { OverlayModule } from '@angular/cdk/overlay';
 import { HttpClient, HttpHandler } from '@angular/common/http';
 import { async, inject, TestBed } from '@angular/core/testing';
+import { ComponentUtils } from 'novo-elements/utils';
 // Vendor
 import { of } from 'rxjs';
 // App
 import { NovoLabelService } from '../../services/novo-label-service';
 import { OptionsService } from '../../services/options/OptionsService';
-import { ComponentUtils } from '../../utils/component-utils/ComponentUtils';
-import { FormUtils } from '../../utils/form-utils/FormUtils';
 import { NovoModalService } from '../modal/modal.service';
 import { NovoToastService } from '../toast/ToastService';
 import { FieldInteractionApi } from './FieldInteractionApi';
 import { ModifyPickerConfigArgs, OptionsFunction } from './FieldInteractionApiTypes';
+import { FormUtils } from './FormUtils';
 
 describe('FieldInteractionApi', () => {
   let service: FieldInteractionApi;

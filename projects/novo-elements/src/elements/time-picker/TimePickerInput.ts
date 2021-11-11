@@ -14,10 +14,9 @@ import {
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { format, parse } from 'date-fns';
 import * as IMask from 'imask';
+import { Helpers, Key } from 'novo-elements/utils';
 import { DateFormatService } from '../../services/date-format/DateFormat';
 import { NovoLabelService } from '../../services/novo-label-service';
-import { Key } from '../../utils';
-import { Helpers } from '../../utils/Helpers';
 // App
 import { NovoOverlayTemplateComponent } from '../common/overlay/Overlay';
 

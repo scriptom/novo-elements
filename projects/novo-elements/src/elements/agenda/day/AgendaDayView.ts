@@ -11,15 +11,8 @@ import {
   Output,
   TemplateRef,
 } from '@angular/core';
+import { CalendarEvent, CalendarEventTimesChangedEvent, DayView, DayViewHour, getDayView, getDayViewHourGrid } from 'novo-elements/utils';
 import { Subject, Subscription } from 'rxjs';
-import {
-  CalendarEvent,
-  CalendarEventTimesChangedEvent,
-  DayView,
-  DayViewHour,
-  getDayView,
-  getDayViewHourGrid,
-} from '../../../utils/calendar-utils/CalendarUtils';
 
 /**
  * @hidden

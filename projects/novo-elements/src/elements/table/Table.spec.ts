@@ -6,8 +6,8 @@ import { FormBuilder, FormsModule, NgControl } from '@angular/forms';
 import { DateFormatService } from '../../services/date-format/DateFormat';
 import { NovoLabelService } from '../../services/novo-label-service';
 import { OptionsService } from '../../services/options/OptionsService';
-import { FormUtils } from '../../utils/form-utils/FormUtils';
 import { NovoOverlayModule } from '../common/overlay/Overlay.module';
+import { FormUtils } from '../form/FormUtils';
 import { NovoTableElement } from './Table';
 import { NovoTableModule } from './Table.module';
 

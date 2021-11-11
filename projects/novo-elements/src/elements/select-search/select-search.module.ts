@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
-import { NovoButtonModule } from '../button';
+import { NovoButtonModule } from 'novo-elements/button';
 import { NovoCheckboxModule } from '../checkbox';
 import { NovoCommonModule } from '../common';
 import { NovoIconModule } from '../icon';
